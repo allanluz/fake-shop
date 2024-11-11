@@ -23,8 +23,8 @@ jobs:
           push: true
           file: ./src/Dockerfile
           tags: 
-            allanluz/fakeshop:latest
-            allanluz/fakeshop:v${{ github.run_number }}
+            allanluz/fake-shop:latest
+            allanluz/fake-shop:v${{ github.run_number }}
 
   cd:
     runs-on: ubuntu-latest
